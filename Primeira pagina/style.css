@@ -1,0 +1,68 @@
+body {
+    background-color: #2E2F34;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: relative;
+    background-color: #34353A;
+    color: #FFA100;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#nav-bar {
+    background-color: #34353A;
+    text-align: right;
+    padding: 10px;
+}
+
+#nav-bar a {
+    color: aliceblue;
+    margin: 7px;
+    padding: 0;
+}
+#projetos a{
+    color: aliceblue;
+    
+    
+}
+
+
+
+h2 {
+    color: #FFA100;
+}
+
+h3 {
+
+color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+ul{
+    color: #FFA100;
+}
+
+ul a {
+    color:aliceblue;
+}
+ hr {
+ border: 1px solid #FFA100;
+ margin-bottom: 10px;
+
+
+ }
+
+footer{
+    text-align: center;
+    position: relative;
+    background-color: #34353A;
+    color: aliceblue;
+    margin: 10px;
+}
+
