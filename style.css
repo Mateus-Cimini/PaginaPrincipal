@@ -189,6 +189,19 @@ button:focus{
     top: 0;
     right: 0;
   }
+
+  footer{
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #suporte a, #projetos a{
+    color: #0b8529;
+    
+  }
   
   @keyframes modalopen {
     from {
