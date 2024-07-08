@@ -1,78 +1,162 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="pt-br">
  <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PRIMEIRA PAGINA</title>  
+  <title>PRIMEIRA PAGINA 2.0</title>  
   <link rel="stylesheet" href="style.css">
-  <style>
-   .FundoCinza {
-    background-color: #34353A;
-   }
-  </style>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+  crossorigin="anonymous"
+/>
  </head>
-
 <body>
- 
 
-  <header id="header">
-   <h1>MINHA PAGINA</h1>
-  
-  </header>
-  <nav id="nav-bar">
-   <a href="#home">Home</a>
-   <a href="#sobre-mim">Sobre mim</a>
-   <a href="#ferramentas">Minhas ferramentas</a>
-   <a href="#projetos">Projetos em destaques</a>
-   <a href="#entre-em-contato">Entre em contato</a>
+  <nav id="navbar">
+    <div class="logo">
+      <img
+      src="imgs/perfil.jpeg" alt="user"
+      />
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#sobre-mim">Sobre mim</a></li>
+      <li><a href="#suporte">Entre em contato</a></li>
+    </ul>
   </nav>
 
-  <section id="home">
-  <h2>HOME</h2>
-   <P>Olá! Meu nome é Mateus Cimini e estou embarcando na emocionante jornada de aprender programação. Este site serve como um portfólio para mostrar meus projetos, compartilhar minhas conquistas e documentar meu progresso no mundo da tecnologia.</P>
-  </section>
+  <header>
+    <button class="toggle" id="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+    <h1>Minha página inicial</h1>
+    <p>
+      Ansioso para aprender e compartilhar projetos! 🚀
+    </p>
+    <button class="cta-btn" id="open">Se-inscreva</button>
+  </header>
 
-  <section id="sobre-mim">
-  <h2>SOBRE MIM</h2>
-   <p>Sou um estudante de desenvolvimento web apaixonado por tecnologia e desenvolvimento de software. Atualmente, estou focado em aprender Python para backend e implemetaçao de Html e Css para frontend, com o objetivo de me tornar um desenvolvedor competente e criativo.</p>
-  </section>
+  <div class="container">
+    <img
+    src="https://i.redd.it/4ufwlh1anj851.jpg"
+    />
+    <section id="home">
+    <h2>Home</h2>
+    <p>
+      Olá! Meu nome é Mateus Cimini e estou embarcando na emocionante jornada de aprender programação. Este site serve como um portfólio para mostrar meus projetos, compartilhar minhas conquistas e documentar meu progresso no mundo da tecnologia
+    </p>
+    </section>
+
+    
+    <section id="sobre-mim">
+    <h2>Sobre mim</h2>
+ 
+   <p>
+    Sou um estudante de desenvolvimento web apaixonado por tecnologia e desenvolvimento de software. Atualmente, estou focado em aprender Python para backend e implemetaçao de Html e Css para frontend, com o objetivo de me tornar um desenvolvedor competente e criativo.
+   </p>
+    </section>
 
 
-<section class="FundoCinza">
-  <section id="ferramentas">
-  <h2>MINHAS FERRAMENTAS</h2> 
-   <P>Linguagens de Programação: Python, Javascript, Html e Css
-    <br>
-    Ferramentas e Tecnologias: VsCode
-    <br>
-  
-  </section>
-  <section id="projetos">
-  <h2>PROJETOS EM DESTAQUES</h2>
-  
+   <section id="Ferramentas">
+   <h2>Ferramentas</h2>
+   <p>
+    Nesta seção, você encontrará uma lista das ferramentas e tecnologias que utilizo no meu dia a dia. Cada uma dessas ferramentas desempenha um papel crucial no desenvolvimento dos meus projetos e na solução de problemas complexos. Desde editores de código eficientes até frameworks poderosos, estas são as ferramentas que me ajudam a transformar ideias em realidade. Explore a lista para ver com o que estou trabalhando e como essas ferramentas contribuem para meus projetos.
+   </p>
+
+   <ul>
+    <li>Linguagens de Programação: Python e Javascript</li>
+    <li>Ferramentas e Tecnologias: Html,Css, VsCode e GitHub</li>
+   </ul>
+   </section>
+
+
+   <section id="projetos">
+   <h2>Projetos</h2>
+
+   <p>
+    Bem-vindo à seção de projetos! Aqui você encontrará uma coleção das minhas criações e contribuições mais recentes. Cada projeto representa um passo na minha jornada de aprendizado e crescimento, onde exploro novas tecnologias e busco resolver problemas de maneira criativa e eficaz. Desde o desenvolvimento de páginas web elegantes e funcionais até a implementação de aplicações complexas, estes projetos refletem a minha paixão por inovação e excelência. Fique à vontade para explorar e descobrir o que tenho feito!
+   </p>
+
    <a href="calculadora de valor hora/">Calculadora de valor hora</a>
    <br>
    <br>
    <a href="criador de mensagem/">Criador de Apresentaçao</a>
-  </section>
+   </section>
 
 
-<section id="entre-em-contato">
-  <h2>ENTRE EM CONTATO</h2>
-<p>Estou sempre aberto a novas oportunidades de aprendizado e colaboração. Sinta-se à vontade para entrar em contato comigo através das redes sociais ou enviar um e-mail ou entrar em contato comigo via whatsapp.
- <ul>
-  <li>Whatsapp: <a href="https://wa.me/5533998087393" target="_blank">+55 033 9 998087393</a></li>
-  <li>Email:<a href="mailto:mateusmateus122333@gmail.com" target="_blank">mateusmateus122333@gmail.com</a></li>
-  <li>Instagram: <a href="https://www.instagram.com/mateus.cimini/" target="_blank">@mateus.cimini</a></li>
- </ul>
-</section>
+   <section id="suporte">
+   <h2>Entre em contato</h2>
+   <p>
+    Estou sempre aberto a novas oportunidades de aprendizado e colaboração. Sinta-se à vontade para entrar em contato comigo através das redes sociais ou enviar um e-mail ou entrar em contato comigo via whatsapp.
+   </p>
+   <ul>
+    <li>Whatsapp: <a href="https://wa.me/5533998087393" target="_blank">+55 033 9 998087393</a></li>
+    <li>Email:<a href="mailto:mateusmateus122333@gmail.com" target="_blank">mateusmateus122333@gmail.com</a></li>
+    <li>Instagram: <a href="https://www.instagram.com/mateus.cimini/" target="_blank">@mateus.cimini</a></li>
+   </ul>
+   </section>
+  </div>
 
- <hr>
- <footer>
-  <p> Copyright - Mateus Cimini | All Rigths Reserwed</p>
- </footer>
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header"><h3>Se-inscreva</h3></div>
+      <div class="modal-content">
+        <p>Sistema de login ainda nao fuciona!!</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Insira seu nome"
+              class="form-input"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Insira seu Email"
+              class="form-input"
+            />
+          </div>
+          <div>
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Insira sua senha"
+              class="form-input"
+            />
+          </div>
+          <div>
+            <label for="password2">Confirme a senha</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Confirme a senha"
+              class="form-input"
+            />
+          </div>
+          <input type="submit" value="Login" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+   <footer>
+    <p> Copyright - Mateus Cimini | All Rigths Reserwed</p>
+   </footer>
+
+<script src="" ></script>
 </body>
-
-
 </html>
